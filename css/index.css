@@ -16,21 +16,25 @@ h1 {
   font-size: 25px;
   margin: 1px;
   cursor: pointer;
+  border-radius: 25px;
 }
 
 .textview {
-  width: 190px;
-  margin: 5px;
+  width: 200px;
+  margin:50%px;
   margin:6px;
   font-size: 25px;
   padding: 8px;
+  border-radius: 10px;
 }
 
 .main {
   position: absolute;
   top: 250px;
-  left: 645px;
+  left: 840px;
+  Right: 50%px;
   background: rgb(41, 226, 41);
+  border-radius: 10px;
 }
 
 .container {
