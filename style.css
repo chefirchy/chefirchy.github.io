@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+h1 {
+    font-family: 'Fredoka One', cursive;
+    font-size:45px;
+    text-align: center;
+    font-weight: bold;
+}
+h2{
+    font-family: 'Fredoka One', cursive;
+    text-align: left;
+
+}
+@media (min-width:768px){
+    h2{
+        text-align: center;
+    }
+}
+
+.list{
+    font-family: 'Fredoka One', cursive;
+    font-size: 20px;
+    text-align: left;
+}
+
+@media (min-width:768px){
+    .list{
+        text-align: center;
+    }
+}
+
+.container{
+    display:flex;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.btn-1{
+    width: 200px;
+    height:50px;
+    border:none;
+    color: black;
+    border-radius: 4px;
+    transition: ease-out 0.3s;
+    font-size: 2rem;
+    outline: none;
+    border: 3px solid #42fbf2; 
+    position:relative;
+    z-index:1;
+
+}
+.btn-1:hover{
+    color:#fff;
+    cursor: pointer;
+}
+.btn-1:before{
+    transition: 0.5s all ease;
+    position: absolute;
+    top:0;
+    left: 50%;
+    right:50%;
+    bottom:0;
+    opacity: 0;
+    content:"";
+    background-color: #42fbf2;
+}
+.btn-1:hover:before{
+    transition: 0.5s all ease;
+    left:0;
+    right:0;
+    opacity: 1;
+    z-index: -1;
+}
+@media (min-width:768px){
+    .btn-1{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        width: 300px;
+        height: 100px;
+    }
+}
+
+.add{
+    text-align: center;
+    font-size:32px;
+}
+.multi{
+    text-align: center;
+    font-size:32px;
+}
+.sub{
+    text-align: center;
+    font-size:32px;
+}
+
+.divd{
+    text-align: center;
+    font-size:32px;
+}
+
+.result-text{
+    text-align: center;
+    font-family: 'Fredoka One', cursive;
+    font-size:15px;
+}
+
+footer{
+    background-color: #42fbf2;
+    text-align: center;
+    padding: 10px;
+    color:white; 
+    margin-top: 250px; 
+}
