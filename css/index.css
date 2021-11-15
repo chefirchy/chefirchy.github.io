@@ -5,6 +5,10 @@
 
 body {
   background-color: rgb(187, 247, 187);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 h1 {
   padding: 15px;
@@ -29,10 +33,7 @@ h1 {
 }
 
 .main {
-  position: absolute;
-  top: 250px;
-  left: 840px;
-  Right: 50%px;
+ margin-top: 5em;
   background: rgb(41, 226, 41);
   border-radius: 10px;
 }
