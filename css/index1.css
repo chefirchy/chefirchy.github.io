@@ -5,7 +5,7 @@
 
 
 body {
-  background-color: rgb(155, 28, 28);
+  background-color: #50a3a2;
   
   display: flex;
   justify-content: center;
@@ -39,7 +39,7 @@ h1 {
 
 .main {
  margin-top: 5em;
-  background: gold;
+  background: #50a3a2;
   border-radius: 10px;
 }
 
