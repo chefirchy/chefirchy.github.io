@@ -17,3 +17,9 @@ function back() {
   var ere = document.form.textview.value;
   document.form.textview.value = ere.substring(0, ere.length - 1);
 }
+$("#login-button").click(function(event){
+  event.preventDefault();
+
+$('form').fadeOut(500);
+$('.wrapper').addClass('form-success');
+});
