@@ -3,58 +3,42 @@
 
 <head>
     <title>Calculator</title>
-    <link rel="shortcut icon" href="img/Untitled design.png">
-    <link rel="stylesheet" href="css/index1.css">
-
-
+    <link rel="shortcut icon" href="img/Untitled design.png"/>
+    <link rel="stylesheet" href="./index.css"/>
 </head>
 
 <body>
-    
-    <h1 style="text-align: center;color:white;  background: black;
-    box-shadow: flex gray;
-    border: flex solid white;
-    animation: background 5s infinite alternate;
-    width: flex;">CALCULATOR</h1>
-   
-    <div class="main">
+    <div class="wrapper">
+        <div class="form-container">
+            <h1>Welcome</h1>
+
+            <form class="form" name="form" method="post">
+                <input name="username" type="text" placeholder="Username"/>
+                <input name="password" type="password" placeholder="Password"/>
+                <input type="submit" value="login"/>
+
+            </form>
+        </div>
+
+        <ul class="bg-bubbles">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+    <main class="hidden">
+        <h1 class="header">CALCULATOR</h1>
         <form name="form">
             <input class="textview" name="textview">
         </form>
-        <style>
-            .container {
-                margin: flex;
-            }
-            DIV {
-  width: flex;
-  max-width:flex;
-  height: flex;
-  background: #50a3a2;
-  box-shadow: 0 -200px 100px -120px #3f807e;
-  border-radius: 30px;
-  border: flex solid white;
-  animation: background 5s infinite alternate;
-}
-
-@keyframes background {
-  50% {
-    background: skyblue;
-  }
-}
-
-/* Helpers */
-BODY {
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: skyblue;
-  font-size: 16px;
-}
-
-        </style>
-        <div class="container">
+        <div class="main-container">
             <table>
                 <tr>
                     <td><input class="button" type="button" value="C" onclick="c()"></td>
@@ -92,10 +76,8 @@ BODY {
         </div>
 
 
-    </div>
-    <script src="js/index.js"></script>
-
+    </main>
+    <script src="./index.js"></script>
 </body>
 
 </html>
-
